@@ -1,0 +1,28 @@
+#dot
+ {
+   height:30px;
+   width:30px;
+   border:10px solid grey;
+   border-radius:100%;
+   position:absolute;
+   margin-top:0px;
+   margin-left:0px;
+   background-color:black;
+   }
+ #bg
+  { height:300px;
+    width:300px;
+	position:absolute;
+	
+	margin-left:200px;
+	margin-top:200px;
+	-webkit-animation-name:circle;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;}
+	@-webkit-keyframes circle{
+	from{-webkit-transform:rotate(0deg)}
+	to{-webkit-transform:rotate(360deg)}
+	}
+  
+ 
